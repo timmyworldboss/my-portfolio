@@ -1,0 +1,54 @@
+ body{
+     background-color: chocolate
+ }
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    /* float: right; */
+    /* flex-wrap: nowrap; */
+    width: 1340px;
+    font-size: 32px;
+}
+
+.mega{
+    display: flex;
+    /* margin-left: 50px; */
+
+}
+.mega div{
+    margin-left: 50px;
+    font-size: 40px;
+}
+.Ricky{
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    font-size: 32px;
+    /* width: 600px; */
+    padding-top: 100px;
+}
+.Ricky img{
+    padding-left: 50px;
+}
+.Ricky p{
+    width: 600px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.hobby{
+    display: flex;
+    /* flex-direction: row; */
+}
+#img{
+    flex-direction: row;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-weight: bolder;
+}   
+footer a{
+    padding: 20px;
+} 
